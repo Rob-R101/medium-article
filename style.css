@@ -1,0 +1,83 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-image: url(https://www-img.lewagon.com/2H0wkr4dTjH3VBwEkSiRotJfbECBB5UjztvcvGU-2BA/rs:fill:336:335/plain/s3://wagon-www/7f3ouo5abeztlns5kw9ugsjpx8nr);
+  background-size: cover;
+  font-family: "Chivo";
+  font-weight: 500;
+  text-align: bottom;
+  text-align: center;
+  padding: 25px;
+}
+
+.card-container {
+  background-color: rgba(222, 217, 217, 0.5);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0, 10, 30, rgba(50,50.93,0.3);
+  margin: 0 auto;
+  width: 550px;
+  height: 575px;
+  text-align: bottom;
+}
+
+.card-banner {
+  background-image: url(https://assets.grenier.qc.ca/uploads/images/logo-lewagon-9c19fb39a748cd3b1f49059ce0dc6c0dfc4cc2447d5a9a3e01bd2d5a214faf3c-276072.png);
+  background-size: cover;
+  background-image: linear-gradient(red, blue);
+  background-repeat: no-repeat;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0, 10, 30, rgba(50,50.93,0.3);
+  margin: 0 auto;
+}
+
+.card-content {
+  background-color: darkolivegreen;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0, 10, 30, rgba(50,50.93,0.3);
+  margin: 0 auto;
+}
+
+.card-btn {
+  background-color: rgb(167, 19, 93);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0, 10, 30, rgba(50,50.93,0.3);
+  margin: 0 auto;
+}
+
+.dl-link {
+  position: relative;
+  text-align: center;
+  padding: 1px 20px;
+  height: 10px;
+  background-color: #007bff;
+  color: #B8001F;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.dl-link:hover {
+  background-color: #000000;
+}
